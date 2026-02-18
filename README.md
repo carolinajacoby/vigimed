@@ -30,7 +30,8 @@ Notebook:01_construcao_banco.ipynb
 
 
 
-This notebook:
+This notebook: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/01_construcao_banco.ipynb)
+
 
 - loads standardized datasets
 - builds the analytical database
@@ -43,7 +44,8 @@ This notebook:
 Notebook: 02_analises_desproporcionalidade.ipynb
 
 
-This notebook:
+This notebook: [![Open Notebook 02 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/02_analises_desproporcionalidade.ipynb)
+
 
 - builds contingency tables
 - calculates disproportionality metrics
