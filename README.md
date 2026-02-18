@@ -4,7 +4,7 @@ This repository provides a reproducible data processing pipeline used to
 construct and analyze pharmacovigilance data from the Brazilian VigiMed
 system.
 
-The workflow allows researchers to reconstruct the analytical database and
+The workflow allows researchers to reconstruct an analytical database and
 calculate disproportionality metrics for drug–adverse event signal detection.
 
 ---
@@ -24,14 +24,15 @@ Dataset DOI: *(insert DOI here)*
 
 The pipeline is divided into two notebooks.
 
+---
+
 ### 1️⃣ Database Construction
 
-Notebook:01_construcao_banco.ipynb
+Notebook: `01_construcao_banco.ipynb`
 
+[![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/01_construcao_banco.ipynb)
 
-
-This notebook: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/01_construcao_banco.ipynb)
-
+This notebook:
 
 - loads standardized datasets
 - builds the analytical database
@@ -41,11 +42,11 @@ This notebook: [![Open in Colab](https://colab.research.google.com/assets/colab-
 
 ### 2️⃣ Disproportionality Analysis
 
-Notebook: 02_analises_desproporcionalidade.ipynb
+Notebook: `02_analises_desproporcionalidade.ipynb`
 
+[![Open Notebook 02 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/02_analises_desproporcionalidade.ipynb)
 
-This notebook: [![Open Notebook 02 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carolinajacoby/vigimed/blob/main/02_analises_desproporcionalidade.ipynb)
-
+This notebook:
 
 - builds contingency tables
 - calculates disproportionality metrics
@@ -55,7 +56,7 @@ Metrics calculated:
 
 - Reporting Odds Ratio (ROR)
 - Proportional Reporting Ratio (PRR)
-- Chi-square test
+- Chi-square statistic
 - Information Component (BCPNN)
 - Empirical Bayes Geometric Mean (EBGM)
 
@@ -63,7 +64,7 @@ Metrics calculated:
 
 ## ▶️ How to Run
 
-Recommended environment: Google Colab.
+Recommended environment: **Google Colab**.
 
 Steps:
 
@@ -80,7 +81,7 @@ Results will be generated automatically.
 
 If you use this pipeline or dataset, please cite:
 
-Jacoby AC et al. Adverse drug reaction records from the Brazilian pharmacovigilance system (VigiMed), 2018–2025. 2026.
+Jacoby AC et al. *Adverse drug reaction records from the Brazilian pharmacovigilance system (VigiMed), 2018–2025.* 2026.
 
 ---
 
@@ -88,5 +89,3 @@ Jacoby AC et al. Adverse drug reaction records from the Brazilian pharmacovigila
 
 Ana Carolina Jacoby  
 Email: anacarolinajacoby0@gmail.com
-
-
